@@ -1,4 +1,4 @@
-FROM ubuntu:17.10
+FROM ubuntu:10.04
 
 RUN apt-get update \
     && apt-get -qq --no-install-recommends install \
