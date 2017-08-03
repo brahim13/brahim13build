@@ -1,4 +1,4 @@
-FROM ubuntu:10.04
+FROM ubuntu:16.04
 
 RUN apt-get update \
     && apt-get -qq --no-install-recommends install \
